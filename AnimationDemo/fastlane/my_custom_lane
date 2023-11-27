@@ -1,0 +1,13 @@
+# Fastfile
+
+platform :ios
+
+lane :my_custom_lane do
+  desc "This is my custom lane"
+
+  # Your custom actions go here
+  # ...
+
+  # Example actions
+  build_app
+end
