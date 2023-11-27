@@ -4,10 +4,7 @@
 target 'AnimationDemo' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-  pod 'SDWebImage/Core', '5.14.3'
-  pod 'SDWebImageFLPlugin', '0.6.0'
-  pod 'SDWebImageWebPCoder', '0.9.1'
-  pod 'SnapKit', '5.0.1'
+  pod 'SnapKit'
   # Pods for AnimationDemo
 
 end

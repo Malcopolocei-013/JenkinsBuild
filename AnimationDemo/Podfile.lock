@@ -1,49 +1,16 @@
 PODS:
-  - FLAnimatedImage (1.0.17)
-  - libwebp (1.3.2):
-    - libwebp/demux (= 1.3.2)
-    - libwebp/mux (= 1.3.2)
-    - libwebp/sharpyuv (= 1.3.2)
-    - libwebp/webp (= 1.3.2)
-  - libwebp/demux (1.3.2):
-    - libwebp/webp
-  - libwebp/mux (1.3.2):
-    - libwebp/demux
-  - libwebp/sharpyuv (1.3.2)
-  - libwebp/webp (1.3.2):
-    - libwebp/sharpyuv
-  - SDWebImage/Core (5.14.3)
-  - SDWebImageFLPlugin (0.6.0):
-    - FLAnimatedImage (>= 1.0.11)
-    - SDWebImage/Core (~> 5.10)
-  - SDWebImageWebPCoder (0.9.1):
-    - libwebp (~> 1.0)
-    - SDWebImage/Core (~> 5.13)
   - SnapKit (5.0.1)
 
 DEPENDENCIES:
-  - SDWebImage/Core (= 5.14.3)
-  - SDWebImageFLPlugin (= 0.6.0)
-  - SDWebImageWebPCoder (= 0.9.1)
-  - SnapKit (= 5.0.1)
+  - SnapKit
 
 SPEC REPOS:
   trunk:
-    - FLAnimatedImage
-    - libwebp
-    - SDWebImage
-    - SDWebImageFLPlugin
-    - SDWebImageWebPCoder
     - SnapKit
 
 SPEC CHECKSUMS:
-  FLAnimatedImage: bbf914596368867157cc71b38a8ec834b3eeb32b
-  libwebp: 1786c9f4ff8a279e4dac1e8f385004d5fc253009
-  SDWebImage: 9c36e66c8ce4620b41a7407698dda44211a96764
-  SDWebImageFLPlugin: 72efd2cfbf565bc438421abb426f4bcf7b670754
-  SDWebImageWebPCoder: 18503de6621dd2c420d680e33d46bf8e1d5169b0
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: 96259a76e1ceaf44d7b752d1fc214bd991fd88b9
+PODFILE CHECKSUM: 2eb6cd577297c41dfd47e4b64ef51865c17341e4
 
 COCOAPODS: 1.12.1
